@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Journey</title>
+    <link rel="stylesheet" href="journey.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Our Journey</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>HOME</li>
+            <li><a href="#"></a>ABOUT</li>
+            <li class="ctn" ><a href="#"></a>CONTACT</li>
+        </ul>
+        <img src="./menu2.png" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>To be continue</h2>
+            <div class="line"></div>
+            <h1>A Wonderful Gift</h1>
+            <a href="design.html" class="ctn">View</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./trend4.jpg">
+                <h4>1st Month</h4>
+                <p>Unexpected Encounter</p>
+                <a href="1month.html" class="ctn">View</a>
+            </div>
+
+            <div class="col">
+                <img src="./trend3.jpg">
+                <h4>2nd Month</h4>
+                <p>To be continue</p>
+                <a href="#" class="ctn">Unavailable</a>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
